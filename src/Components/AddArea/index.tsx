@@ -15,15 +15,6 @@ export const AddArea = ({ onAdd }: Props) => {
         }
     }
 
-    /*
-    const handleKeyUp = (e: KeyboardEvent) => {
-        ((e.code === "Enter" && inputText !== "") && (
-            onAdd(inputText)
-            setInputText("")
-        ));
-    }
-    */
-
     return (
         <C.Container>
             <div className={"add"}>+</div>
